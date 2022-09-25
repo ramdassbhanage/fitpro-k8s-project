@@ -17,7 +17,7 @@ spec:
         app: mongodbservice
     spec:
       containers:
-      - image: shwetashukla23/mongo:latest
+      - image: shubh1254/mongo:latest
         name: mongo-container
         ports:
         - containerPort: 27017
