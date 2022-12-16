@@ -20,7 +20,7 @@ spec:
       - env:
         - name: eureka.client.serviceUrl.defaultZone
           value: http://eurekaserversvc:8761/eureka
-        image: shubh1254/product-webapp:latest
+        image: ramdasb/product-webapp:latest
         name: product-webapp
         ports:
         - containerPort: 8087
